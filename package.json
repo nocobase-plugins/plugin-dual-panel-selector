@@ -1,0 +1,32 @@
+{
+  "name": "@nocobase/plugin-dual-panel-selector",
+  "version": "1.6.35",
+  "main": "./dist/server/index.js",
+  "displayName": "Dual Panel Selector",
+  "displayName.zh-CN": "双面板选择器",
+  "description": "A plugin for adding dual panel selector with tree and checkbox panels to fields",
+  "description.zh-CN": "为字段添加双面板选择器的插件，支持树形面板和复选框面板",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.nocobase.com",
+  "devDependencies": {
+    "@ant-design/icons": "5.x",
+    "@formily/react": "2.x",
+    "antd": "5.x",
+    "lodash": "4.x",
+    "react": "^18.2.0",
+    "react-i18next": "^11.15.1"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "1.x",
+    "@nocobase/server": "1.x",
+    "@nocobase/test": "1.x"
+  },
+  "keywords": [
+    "Dual Panel",
+    "Selector",
+    "Tree",
+    "Checkbox",
+    "UI Component"
+  ],
+  "gitHead": "d0b4efe4be55f8c79a98a331d99d9f8cf99021a1"
+}
